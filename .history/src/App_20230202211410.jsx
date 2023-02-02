@@ -15,7 +15,7 @@ function App() {
       <Route path='/videos'element={<Videos />} />
       <Route path='/upload'element={<Upload />} />
       <Route path='/login'element={<Login />} />
-      <Route path='/signup'element={<Signup />} />
+      <Route path='/login'element={<Signup />} />
     </Routes>
     <Footer />
   </Router>
